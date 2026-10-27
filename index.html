@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vincent Musyoka | Software Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://googleapis.com" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav class="navbar" id="navbar">
+      <div class="logo">Vincent Musyoka</div>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#blog" class="nav-link">Writing</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <h1>Hello, I’m <span class="highlight">Vincent Musyoka</span></h1>
+        <p class="hero-subtitle">A passionate <span class="highlight">Software Developer</span> from Makueni, Kenya</p>
+        <p>Building websites, apps, and writing code to shape the future of IT.</p>
+        <a href="#contact" class="btn-primary">Get in Touch</a>
+      </div>
+      <div class="hero-profile-container">
+        <img src="profile.png" alt="Vincent Musyoka - Software Developer" class="hero-profile-img" />
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="section about-section">
+      <div class="about-container">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            I’m Vincent Musyoka, a 20-year-old software developer from Makueni, Kenya. I’m driven by a passion to create impactful digital experiences and grow into a leading developer in the IT industry. My goal is to master web and app development, contribute to innovative projects, and inspire others through my work.
+          </p>
+        </div>
+        <div class="about-image-box">
+          <img src="graduation.png" alt="Vincent Musyoka receiving Certificate of Completion" class="about-img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section skills-section">
+      <h2>Skills &amp; IT Architecture</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">💻</div>
+          <h3>Dynamic UI &amp; DOM Manipulation</h3>
+          <p>Building highly interactive, state-driven interfaces using advanced vanilla JavaScript. Expert at tracking real-time status changes, handling automated tabular ledger updates, and dynamic element creation.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🔒</div>
+          <h3>Authentication &amp; State Logic</h3>
+          <p>Designing user registration workflows, conditional secure routes, validation controls, and user access levels to isolate terminal interfaces for multi-tenant applications.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">💰</div>
+          <h3>Localized Business Workflows</h3>
+          <p>Engineering financial book ledger tracking schemas optimized for local workflows, custom balance computations, transaction tracking status flags, and simulated Lipa Na M-Pesa business models.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🚀</div>
+          <h3>IT Ambitions</h3>
+          <p>To master advanced full-stack architectures, deploy production-ready cloud solutions for growing business ecosystems across East Africa, and lead high-performing technical teams.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section projects-section">
+      <h2>Projects &amp; Portfolio</h2>
+      <div class="projects-grid" aria-live="polite">
+        <!-- Springfield Gym System -->
+        <article class="project-card" tabindex="0">
+          <div class="project-image gym-project-bg" aria-label="Springfield Gym system banner" >
+            <span class="project-badge">Live System</span>
+          </div>
+          <h3>Springfield Gym Management System</h3>
+          <p>
+            A comprehensive digital book ledger and terminal management application built for gym owners. Features dynamic member lookup, daily session passes, active monthly subscriptions tracking, and integrated Lipa Na M-Pesa billing flows.
+          </p>
+          <div class="project-tags">
+            <span>JavaScript</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>M-Pesa Flow</span>
+          </div>
+          <a href="https://vinny9c.github.io/Springfield-Gym/" target="_blank" class="btn-secondary" aria-label="View Springfield Gym project live">Launch Application ↗</a>
+        </article>
+
+        <!-- Rental Management System -->
+        <article class="project-card" tabindex="0">
+          <div class="project-image rental-project-bg" aria-label="Vincent House Rental Management system banner">
+            <span class="project-badge badge-blue">Live System</span>
+          </div>
+          <h3>Vincent House Rental Management System</h3>
+          <p>
+            A secure real estate utility platform engineered to manage rental properties, track occupant logs, and streamline landlord administrative duties. Built with a localized responsive user dashboard and custom tenant account registration workflows.
+          </p>
+          <div class="project-tags">
+            <span>JavaScript</span>
+            <span>Authentication</span>
+            <span>DOM Architecture</span>
+            <span>CSS Grids</span>
+          </div>
+          <a href="https://vinny9c.github.io/Vincent-house-system/" target="_blank" class="btn-secondary" aria-label="View Rental Management project live">Launch Application ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- BLOG SECTION -->
+    <section id="blog" class="section blog-section">
+      <h2>Writing &amp; Technical Insights</h2>
+      <div class="blog-grid">
+        <article class="blog-card" tabindex="0">
+          <div class="blog-date">Oct 2026</div>
+          <h3><a href="#" class="blog-title">Building State-Driven Ledgers with Vanilla JavaScript</a></h3>
+          <p>An in-depth look at managing data arrays, tracking payment balances, and rendering real-time UI data tables without complex frontend frameworks.</p>
+          <span class="blog-read-time">4 min read</span>
+        </article>
+        <article class="blog-card" tabindex="0">
+          <div class="blog-date">Sep 2026</div>
+          <h3><a href="#" class="blog-title">Handling Localized Business Logic and M-Pesa Workflows</a></h3>
+          <p>Architecting client-side transactional models that cleanly calculate totals, track debts, and mirror Kenyan mobile billing system constraints.</p>
+          <span class="blog-read-time">5 min read</span>
+        </article>
+        <article class="blog-card" tabindex="0">
+          <div class="blog-date">Aug 2026</div>
+          <h3><a href="#" class="blog-title">Securing Frontend Routes and User Authentication Flows</a></h3>
+          <p>Strategies for creating client-side access control boundaries, input filtering, and dynamic user registration systems using clean DOM scripting.</p>
+          <span class="blog-read-time">6 min read</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="section testimonials-section">
+      <h2>Testimonials &amp; Special Mentions</h2>
+      <div class="testimonial-card" tabindex="0" aria-label="Testimonial for, Vincent's bestie">
+        <p>“Vincent is a brilliant developer and an even better friend. His dedication and creativity inspire me every day!”</p>
+        <footer>
+          <strong>parents</strong> <a href="mailto:vincentw8777@gmail.com" class="testimonial-email" aria-label="Email Me">✉️</a> <span class="testimonial-handle">@kaylee</span>
+        </footer>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section contact-section">
+      <h2>Contact Me</h2>
+      <form id="contact-form" aria-label="Contact form to reach Vincent Musyoka">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit" class="btn-primary">Send Message</button>
+        <p id="form-status" role="alert" aria-live="polite"></p>
+      </form>
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:musyokavincent87@gmail.com">musyokavincent87@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+254745169071">0745 169 071</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Vincent Musyoka | Designed &amp; Developed with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
